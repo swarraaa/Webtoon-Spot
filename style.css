@@ -87,6 +87,80 @@ h2 {
   transform: scale(1.03);
 }
 
+.options{
+  margin: 3rem;
+  border-radius: 1rem;
+  display: flex;
+  height: 20rem;
+  gap: 1rem;
+}
+
+.options>div{
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat:no-repeat ;
+  background-size: auto 100%;
+  transition: all .8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+}
+
+.options>div:hover{
+  flex: 2;
+}
+.options:hover>:not(:hover){
+  opacity: 0.5;
+}
+.options>div>a{
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: black;
+  font-family: 'Rowdies', cursive;
+  background-color: rgb(255, 255, 255, 0.4);
+}
+
+.picksDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem;
+  width: 100%;
+}
+
+#picks{
+  position: absolute;
+  color: black;
+  font-size: 2.4rem;
+  -webkit-text-stroke: 2px #3f3f3f;
+}
+
+#picks::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #98c4ff;
+  -webkit-text-stroke: 0px;
+  border-right: 4px solid #98c4ff;
+  overflow: hidden;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+  0%, 10%, 100%{
+    width: 0;
+  }
+  70%, 90%{
+    width: 100%;
+  }
+}
+
 .quickDetails{
   display: flex;
   flex-direction: row;

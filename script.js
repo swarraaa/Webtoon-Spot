@@ -36,7 +36,7 @@ const onScroll = (event) => {
 };
 const onScrola = (event) => {
   const scrollPosition = event.target.scrollingElement.scrollTop;
-  if (scrollPosition >900) {
+  if (scrollPosition >1300) {
     aDiv.style.opacity = 0;
     aDiv.style.translate = "0 -50px";
     aDiv.style.scale = "0.8";
@@ -48,7 +48,7 @@ const onScrola = (event) => {
 };
 const onScrollb = (event) => {
   const scrollPosition = event.target.scrollingElement.scrollTop;
-  if (scrollPosition >1550) {
+  if (scrollPosition >1950) {
     bDiv.style.opacity = 0;
     bDiv.style.translate = "0 -50px";
     bDiv.style.scale = "0.8";
@@ -60,7 +60,7 @@ const onScrollb = (event) => {
 };
 const onScrollc = (event) => {
   const scrollPosition = event.target.scrollingElement.scrollTop;
-  if (scrollPosition >2350) {
+  if (scrollPosition >2780) {
     cDiv.style.opacity = 0;
     cDiv.style.translate = "0 -50px";
     cDiv.style.scale = "0.8";
@@ -72,7 +72,7 @@ const onScrollc = (event) => {
 };
 const onScrolld = (event) => {
   const scrollPosition = event.target.scrollingElement.scrollTop;
-  if (scrollPosition >3000) {
+  if (scrollPosition >3400) {
     dDiv.style.opacity = 0;
     dDiv.style.translate = "0 -50px";
     dDiv.style.scale = "0.8";
@@ -84,7 +84,7 @@ const onScrolld = (event) => {
 };
 const onScrolle = (event) => {
   const scrollPosition = event.target.scrollingElement.scrollTop;
-  if (scrollPosition >3650) {
+  if (scrollPosition >4200) {
     eDiv.style.opacity = 0;
     eDiv.style.translate = "0 -50px";
     eDiv.style.scale = "0.8";
