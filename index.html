@@ -28,11 +28,11 @@
       </div>
       <!-- Images options for quick jump -->
       <div class="options">
-        <div style="background-image: url(images/eleceed2.jpg);"><a href="#aaa">Eleceed</a></div>
-        <div style="background-image: url(images/omnireade.png);"><a href="#bbb">ORV</a></div>
-        <div style="background-image: url(images/solo.webp);"><a href="#ccc">SL</a></div>
-        <div style="background-image: url(images/trueedu.webp);"><a href="#ddd">GS</a></div>
-        <div style="background-image: url(images/teenagemer.jpg);"><a href="#eee">TM</a></div>
+        <div style="background-image: url(images/eleceed2.jpg);"><button onclick="smoothScroll(document.getElementById('aaa'))">Eleceed</button></div>
+        <div style="background-image: url(images/omnireade.png);"><button onclick="smoothScroll(document.getElementById('bbb'))">ORV</button></div>
+        <div style="background-image: url(images/solo.webp);"><button onclick="smoothScroll(document.getElementById('ccc'))">SL</button></div>
+        <div style="background-image: url(images/trueedu.webp);"><button onclick="smoothScroll(document.getElementById('ddd'))">GS</button></div>
+        <div style="background-image: url(images/teenagemer.jpg);"><button onclick="smoothScroll(document.getElementById('eee'))">TM</button></div>
       </div>
       <!-- Eleceed -->
       <div class="smallcontainer" id="aaa">
@@ -154,6 +154,9 @@
         </div>
         <a class="firstEp" href="https://www.webtoons.com/en/action/teenage-mercenary/episode-0-prologue/viewer?title_no=2677&episode_no=1" target="_blank">Read First Episode!</a>
       </div>
+    </div>
+    <div id="scrollDiv">
+      <button id="scrollUp" onclick="smoothScroll(document.getElementById('banner'))">^</button>
     </div>
     <!-- Footer -->
     <div class="enddiv">
